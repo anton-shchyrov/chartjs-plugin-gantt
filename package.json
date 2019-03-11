@@ -1,0 +1,33 @@
+{
+  "name": "chartjs-plugin-gantt",
+  "version": "1.0.0",
+  "description": "Gantt series fo ChartJS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-shchyrov/chartjs-plugin-gantt.git"
+  },
+  "keywords": [
+    "chartjs",
+    "plugin",
+    "gantt",
+    "series"
+  ],
+  "author": "Anton Shchyrov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anton-shchyrov/chartjs-plugin-gantt/issues"
+  },
+  "homepage": "https://github.com/anton-shchyrov/chartjs-plugin-gantt#readme",
+  "devDependencies": {
+    "@types/chart.js": "^2.7.46",
+    "chartjs-chart-box-and-violin-plot": "^1.4.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3"
+  }
+}
