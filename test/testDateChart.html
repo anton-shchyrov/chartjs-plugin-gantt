@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test Date Chart</title>
+        <style type="text/css">
+            .chart-container {
+                width: 600px;
+                height: 400px;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="chart-container">
+            <canvas id="chart"></canvas>
+        </div>
+        <script type="text/javascript" src="../dist/chartjs-plugin-gantt.js"></script>
+        <script type="text/javascript">
+            function incDate(date) {
+                date.setHours(date.getHours() + 1);
+                const res = new Date(date);
+                return res;
+            }
+
+            const curDate = new Date();
+
+            const data = [];
+            for (let i = 0; i < 5; i++)
+                data.push({y: {from: new Date(curDate), to: incDate(curDate)}, x: i});
+
+            const chart = new Chart("chart", {
+                type: "gantt",
+                data: {
+                    datasets: [{
+                        label: "Gantt time series",
+                        height: 1,
+                        data: data
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            id: "time-gantt-axis",
+                            type: "time-gantt",
+                            position: "left"
+                        }]
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

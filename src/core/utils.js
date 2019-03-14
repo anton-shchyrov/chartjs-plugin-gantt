@@ -71,8 +71,12 @@ export const Utils = {
         }
     },
 
+    isTimeScale: function(scale) {
+        return scale.isTime || scale.type === "time";
+    },
+
     convertSize: function (scale, size) {
-        return (scale.type === "time") ? this._parseInterval(size) : size;
+        return (this.isTimeScale(scale)) ? this._parseInterval(size) : size;
     },
 
     normalize: function (value) {
