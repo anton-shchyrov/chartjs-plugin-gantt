@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test Chart</title>
+        <style type="text/css">
+            .chart-container {
+                width: 600px;
+                height: 400px;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="chart-container">
+            <canvas id="chart"></canvas>
+        </div>
+        <script type="text/javascript" src="../dist/chartjs-plugin-gantt.js"></script>
+        <script type="text/javascript">
+            const chart = new Chart("chart", {
+                type: "gantt",
+                data: {
+                    datasets: [{
+                        label: "Gantt series",
+                        height: 1,
+                        data: [
+                            {x: {from: 0, to: 5}, y: 1, backgroundColor: "rgba(0, 255, 0, 0.1)"},
+                            {x: {from: 0, to: 5}, y: 2, backgroundColor: "rgba(255, 255, 0, 0.1)"},
+                            {x: {from: 0, to: 5}, y: 3, backgroundColor: "rgba(255, 0, 0, 0.1)"},
+                            {x: {from: 3, to: 8}, y: 3},
+                            {x: {from: 5, to: 10}, y: 5},
+                        ]
+                    }]
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -4,7 +4,9 @@
   "description": "Gantt series fo ChartJS library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack -d --mode development",
+    "build": "webpack -d --mode release"
   },
   "repository": {
     "type": "git",
@@ -23,9 +25,8 @@
   },
   "homepage": "https://github.com/anton-shchyrov/chartjs-plugin-gantt#readme",
   "devDependencies": {
-    "@types/chart.js": "^2.7.46",
-    "chartjs-chart-box-and-violin-plot": "^1.4.0",
-    "typescript": "^3.3.3333"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   },
   "dependencies": {
     "chart.js": "^2.7.3"

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeed365e-9344-4591-a6b0-120473d629ea" name="Default" comment="" />
+    <list default="true" readonly="true" id="aeed365e-9344-4591-a6b0-120473d629ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/controllers/gantt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/gantt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/rect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/rect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scales/linear-gantt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scales/linear-gantt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testChart.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/testChart.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,48 +19,102 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="testChart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/testChart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="228">
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rect.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rect.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elements/rect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="92">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="e#15#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@types/chart.js/index.d.ts">
+      <file leaf-file-name="gantt.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/gantt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="e#15#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linear-gantt.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scales/linear-gantt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="56" column="15" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scale.linearbase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.linearbase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.scale.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/chart.js/src/core/core.scale.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="536" selection-start-line="536" selection-end-line="536" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="70" />
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#15#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,24 +125,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>element</find>
+      <find>this</find>
+      <find>GanttController</find>
+      <find>tmp</find>
+      <find>vm</find>
+      <find>data</find>
+      <find>helpers</find>
     </findStrings>
+    <replaceStrings>
+      <replace>rect</replace>
+      <replace>val</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/elements/rect.ts" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/elements/gantt.ts" />
         <option value="$PROJECT_DIR$/src/elements/gantt.js" />
+        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/elements/rect.js" />
+        <option value="$PROJECT_DIR$/src/controllers/gantt.js" />
+        <option value="$PROJECT_DIR$/src/core/utils.js" />
+        <option value="$PROJECT_DIR$/src/scales/linear-gantt.js" />
+        <option value="$PROJECT_DIR$/test/testChart.html" />
       </list>
     </option>
   </component>
@@ -100,28 +178,17 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="798" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="chartjs-plugin-gantt" type="cbb8eebc:String" user="chartjs-plugin-gantt" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,7 +205,58 @@
               <item name="chartjs-plugin-gantt" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartjs-plugin-gantt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartjs-plugin-gantt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartjs-plugin-gantt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartjs-plugin-gantt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartjs-plugin-gantt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartjs-plugin-gantt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartjs-plugin-gantt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartjs-plugin-gantt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartjs-plugin-gantt" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="chartjs-plugin-gantt" type="cbb8eebc:String" user="chartjs-plugin-gantt" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="chartjs-plugin-gantt" type="cbb8eebc:String" user="chartjs-plugin-gantt" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="chartjs-plugin-gantt" type="cbb8eebc:String" user="chartjs-plugin-gantt" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="controllers" type="cbb8eebc:String" user="controllers" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="chartjs-plugin-gantt" type="cbb8eebc:String" user="chartjs-plugin-gantt" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="elements" type="cbb8eebc:String" user="elements" />
             </path>
           </expand>
           <select />
@@ -147,8 +265,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,6 +284,25 @@
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Anton\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Anton\Sources\JS\chartjs-plugin-gantt" />
+          <option name="myCopyRoot" value="D:\Anton\Sources\JS\chartjs-plugin-gantt" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Anton\Sources\JS\chartjs-plugin-gantt" />
+          <option name="myCopyRoot" value="D:\Anton\Sources\JS\chartjs-plugin-gantt" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,48 +311,181 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552321198753</updated>
-      <workItem from="1552321201918" duration="3270000" />
+      <workItem from="1552321201918" duration="8150000" />
+      <workItem from="1552385679234" duration="17682000" />
+      <workItem from="1552473942328" duration="12913000" />
+      <workItem from="1552559062395" duration="8729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3270000" />
+    <option name="totallyTimeSpent" value="47474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="854" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21625" />
+      <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.499375" weight="0.32885906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21625" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.501875" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32885906" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.498125" visible="true" weight="0.32885906" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/elements/gantt.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/rect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/gantt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scales/linear-gantt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/rect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/gantt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -230,8 +502,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="408">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/rect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/chart.js/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/gantt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -242,17 +538,374 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/gantt.ts">
+    <entry file="file://$PROJECT_DIR$/src/elements/gantt.ts" />
+    <entry file="uml://JavaScript-modules-diagram/D:/Anton/Sources/JS/chartjs-plugin-gantt">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.Bar.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/build/Chart.BoxPlot.js#chart.js#112;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/build/Chart.BoxPlot.min.js#chart.js#78;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.Bubble.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.Doughnut.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.Line.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.PolarArea.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.Radar.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/charts/Chart.Scatter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/Chart.bundle.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js#name#91209;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/Chart.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/accessibility.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/area/analyser.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-anchorjs/anchor-style.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/animations.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/api.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/images/apple-touch-icon-precomposed-152.png</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/area.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLinear.js#Chart#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLinear.js#commonDataLimits#73;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLinear.js#commonScaleOptions#91;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLinear.js#getRightValue#58;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLogarithmic.js#Chart#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLogarithmic.js#commonDataLimits#73;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLogarithmic.js#commonScaleOptions#91;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/scale/arrayLogarithmic.js#getRightValue#58;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/axes.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/bar.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/elements/base.js#Chart#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/elements/base.js#defaults#93;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/elements/base.js#rnd#58;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/base.js#Chart#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/base.js#horizontalDefaults#164;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/base.js#verticalDefaults#64;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/basic.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/scatter/basic.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/border.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/elements/boxandwhiskers.js#ArrayElementBase#57;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/elements/boxandwhiskers.js#Chart#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/elements/boxandwhiskers.js#defaults#76;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/boxplot.js#Chart#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/boxplot.js#asBoxPlotStats#23;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/boxplot.js#base#97;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/boxplot.js#horizontalDefaults#122;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/boxplot.js#verticalDefaults#104;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/bubble.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/bubble.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scriptable/bubble.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-sharing/buttons.js;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-sharing/buttons.js;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/callbacks.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/category.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/chart.js#Chart#32;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.Bar.js#1709;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.Bubble.js#1747;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.Doughnut.js#1788;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.Line.js#1831;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.PolarArea.js#1870;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.Radar.js#1914;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#Chart.Scatter.js#1954;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.bar.js#1351;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.bubble.js#1399;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.doughnut.js#1450;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.line.js#1503;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.polarArea.js#1552;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.radar.js#1606;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#controller.scatter.js#1656;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.animation.js#265;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.animations.js#324;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.controller.js#900;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.datasetController.js#942;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.defaults.js#376;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.element.js#425;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.helpers.js#207;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.interaction.js#523;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.layouts.js#575;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.plugins.js#673;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.scale.js#719;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.scaleService.js#770;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.ticks.js#821;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#core.tooltip.js#867;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#index.js#474;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#platform.js#624;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#plugins#2029;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#scale.category.js#1037;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#scale.linear.js#1080;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#scale.linearbase.js#992;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#scale.logarithmic.js#1121;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#scale.radialLinear.js#1167;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/chart.js#scale.time.js#1214;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/charts.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/colors.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/combo-bar-line.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/time/combo.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/comparison.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/contributing.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.bar.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.bar.js#elements#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.bar.js#helpers#113;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.bubble.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.bubble.js#elements#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.bubble.js#helpers#113;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.doughnut.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.doughnut.js#elements#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.doughnut.js#helpers#113;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.line.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.line.js#elements#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.line.js#helpers#113;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.polarArea.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.polarArea.js#elements#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.polarArea.js#helpers#113;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.radar.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.radar.js#elements#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/controllers/controller.radar.js#helpers#113;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/controllers/controller.scatter.js#defaults#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.animation.js#Element#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.animations.js#defaults#46;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.animations.js#helpers#89;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.controller.js#Animation#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#Interaction#197;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#Tooltip#434;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#animations#64;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#defaults#111;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#helpers#154;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#layouts#246;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#platform#287;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#plugins#336;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.controller.js#scaleService#377;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.datasetController.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.defaults.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.element.js#color#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.element.js#helpers#57;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.helpers.js#color#75;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.helpers.js#defaults#113;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.helpers.js#helpers#156;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.helpers.js#scaleService#199;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.interaction.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.js#defaults#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.layouts.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.plugins.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.plugins.js#helpers#62;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.scale.js#Element#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.scale.js#Ticks#146;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.scale.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.scale.js#helpers#103;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.scaleService.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.scaleService.js#helpers#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.scaleService.js#layouts#105;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.ticks.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/core/core.tooltip.js#Element#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.tooltip.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/core/core.tooltip.js#helpers#103;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/custom-line.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/custom-pie.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/custom-points.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/advanced/data-labelling.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#asBoxPlotStats#2118;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#asViolinStats#2816;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#commonDataLimits#3821;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#commonScaleOptions#3738;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#getRightValue#3461;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#kde#84;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#quantiles#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/data.js#rnd#5004;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/device-pixel-ratio.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/doughnut.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/doughnut.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/elements/element.arc.js#Element#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.arc.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.arc.js#helpers#115;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/elements/element.line.js#Element#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.line.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.line.js#helpers#115;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/elements/element.point.js#Element#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.point.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.point.js#helpers#115;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/elements/element.rectangle.js#Element#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/element.rectangle.js#defaults#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/elements.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/events.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/extensions.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/favicon.ico</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/images/favicon.ico</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/filtering-labels.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/time/financial.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/fonts.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-fontsettings/fontsettings.js;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-fontsettings/fontsettings.js;</node>
+            <node x="" y="">$PROJECT_DIR$/js/src/elements/gantt.js#Chart#21;</node>
+            <node x="" y="">$PROJECT_DIR$/js/src/elements/gantt0.js#Chart#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/gridlines-display.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/gridlines-style.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/gulpfile.js#browserify#511;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#collapse#633;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#concat#32;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#connect#69;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#eslint#108;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#exec#438;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#file#145;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#fs#742;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#gulp#4;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#htmllint#766;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#insert#178;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#karma#481;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#merge#596;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#path#714;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#pkg#807;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#replace#215;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#size#254;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#source#551;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#streamify#287;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#uglify#330;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#util#367;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#yargs#684;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/gulpfile.js#zip#400;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/helpers/helpers.canvas.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/helpers/helpers.core.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/helpers/helpers.easing.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/helpers/helpers.options.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/bar/horizontal.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@types/chart.js/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/radial/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/helpers/index.js#helpers.canvas.js#136;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/helpers/index.js#helpers.core.js#32;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/helpers/index.js#helpers.easing.js#83;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/helpers/index.js#helpers.options.js#190;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/plugins/index.js#plugin.filler.js#60;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/index.js#plugin.legend.js#112;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/index.js#plugin.title.js#163;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/elements/index.js#element.arc.js#57;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/index.js#element.line.js#105;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/index.js#element.point.js#155;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/elements/index.js#element.rectangle.js#210;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-color/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/installation.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/integration.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/interactions.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/interpolation-modes.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-search-plus/jquery.mark.min.js#jquery#1231;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@sgratzl/science/src/stats/kde.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/labelling.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/layout.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/legend.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/license.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/area/line-boundaries.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/area/line-datasets.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/time/line-point-data.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/area/line-stacked.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/line-styles.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/line.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/time/line.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/logarithmic/line.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/radial/linear.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/linear.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/logarithmic.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/linear/min-max-suggested.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/linear/min-max.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/mixed.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/modes.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/moment/moment.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/bar/multi-axis.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/multi-axis.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/scatter/multi-axis.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/multiline-labels.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/non-numeric-y.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/options.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/package.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/pie.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/platforms/platform.basic.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/platforms/platform.dom.js#helpers#89;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/platforms/platform.js#basic#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/platforms/platform.js#dom#103;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/platforms/platform.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/plugins/plugin.filler.js#defaults#252;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.filler.js#elements#301;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.filler.js#helpers#346;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-ga/plugin.js;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/plugins/plugin.legend.js#Element#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.legend.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.legend.js#helpers#115;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.legend.js#layouts#158;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/plugins/plugin.title.js#Element#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.title.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.title.js#helpers#115;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/plugins/plugin.title.js#layouts#158;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/plugins.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/point-sizes.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/legend/point-style.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/point-styles.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/polar-area.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/polar.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/legend/positioning.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/tooltips/positioning.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/advanced/progress-bar.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@sgratzl/science/src/stats/quantiles.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/radar-skip-points.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/radar.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/radar.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/area/radar.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/elements/rect.js#Chart#23;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/responsive.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/samples.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.category.js#Scale#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.category.js#scaleService#62;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.linear.js#Ticks#168;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.linear.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.linear.js#helpers#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.linear.js#scaleService#111;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.linearbase.js#Scale#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.linearbase.js#helpers#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.logarithmic.js#Scale#62;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.logarithmic.js#Ticks#162;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.logarithmic.js#helpers#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.logarithmic.js#scaleService#105;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.radialLinear.js#Ticks#168;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.radialLinear.js#defaults#19;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.radialLinear.js#helpers#68;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.radialLinear.js#scaleService#111;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.time.js#Scale#235;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.time.js#defaults#143;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.time.js#helpers#192;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.time.js#moment#46;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/src/scales/scale.time.js#scaleService#278;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/scatter.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/logarithmic/scatter.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-search-plus/search.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-search-plus/search.js;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-search-plus/search.js;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/skip-points.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/bar/stacked-group.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/bar/stacked.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/linear/step-size.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/line/stepped.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/style.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/style.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/style.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/style.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/styling.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/theme.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/time.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/title.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/scales/toggle-scale-type.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/tooltip.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/updates.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/usage.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/utils.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/samples/charts/bar/vertical.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/elements/violin.js#ArrayElementBase#57;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/elements/violin.js#Chart#22;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/elements/violin.js#defaults#76;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/violin.js#Chart#61;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/violin.js#asViolinStats#23;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/violin.js#base#96;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/violin.js#horizontalDefaults#121;D:/Anton/Sources/JS/chartjs-plugin-gantt/node_modules/chartjs-chart-box-and-violin-plot/src/controllers/violin.js#verticalDefaults#103;</node>
+            <node x="" y="">$PROJECT_DIR$/webpack.config.js#path#6;</node>
+            <node x="" y="">$PROJECT_DIR$/js/webpack.config.js#path#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-highlight/website.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-fontsettings/website.css</node>
+            <node x="" y="">../</node>
+            <node x="" y="">../axes/</node>
+            <node x="" y="">../charts/</node>
+            <node x="" y="">../configuration/</node>
+            <node x="" y="">../developers/</node>
+            <node x="" y="">../general/</node>
+            <node x="" y="">../notes/</node>
+            <node x="" y="">../radial/</node>
+            <node x="" y="">./</node>
+            <node x="" y="">browserify</node>
+            <node x="" y="">cartesian/</node>
+            <node x="" y="">Chart;</node>
+            <node x="" y="">exec;</node>
+            <node x="" y="">fs</node>
+            <node x="" y="">getting-started/</node>
+            <node x="" y="">gitbook</node>
+            <node x="" y="">gulp</node>
+            <node x="" y="">gulp-concat</node>
+            <node x="" y="">gulp-connect</node>
+            <node x="" y="">gulp-eslint</node>
+            <node x="" y="">gulp-file</node>
+            <node x="" y="">gulp-htmllint</node>
+            <node x="" y="">gulp-insert</node>
+            <node x="" y="">gulp-replace</node>
+            <node x="" y="">gulp-size</node>
+            <node x="" y="">gulp-streamify</node>
+            <node x="" y="">gulp-uglify</node>
+            <node x="" y="">gulp-util</node>
+            <node x="" y="">gulp-zip</node>
+            <node x="" y="">https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js</node>
+            <node x="" y="">https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js</node>
+            <node x="" y="">https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js</node>
+            <node x="" y="">https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js</node>
+            <node x="" y="">https://data.jsdelivr.com/v1/package/npm/chart.js/badge</node>
+            <node x="" y="">https://img.shields.io/badge/slack-chartjs-blue.svg?style=flat-square&amp;amp;maxAge=3600</node>
+            <node x="" y="">https://img.shields.io/bower/v/chartjs.svg?style=flat-square&amp;amp;maxAge=600</node>
+            <node x="" y="">https://img.shields.io/cdnjs/v/Chart.js.svg?style=flat-square&amp;amp;maxAge=600</node>
+            <node x="" y="">https://img.shields.io/github/release/chartjs/Chart.js.svg?style=flat-square&amp;amp;maxAge=600</node>
+            <node x="" y="">https://img.shields.io/npm/dm/chart.js.svg?style=flat-square&amp;amp;maxAge=600</node>
+            <node x="" y="">https://img.shields.io/npm/v/chart.js.svg?label=jsdelivr&amp;amp;style=flat-square&amp;amp;maxAge=600</node>
+            <node x="" y="">https://img.shields.io/npm/v/chart.js.svg?style=flat-square&amp;amp;maxAge=600</node>
+            <node x="" y="">interactions/</node>
+            <node x="" y="">jquery</node>
+            <node x="" y="">karma</node>
+            <node x="" y="">merge-stream</node>
+            <node x="" y="">name</node>
+            <node x="" y="">path</node>
+            <node x="" y="">plugin</node>
+            <node x="" y="">vinyl-source-stream</node>
+            <node x="" y="">yargs</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.09432759719566602" x="2553.0" y="2344.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/chart.js/src/scales/scale.linearbase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/chart.js/src/core/core.scale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="536" selection-start-line="536" selection-end-line="536" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/rect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="92">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/gantt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scales/linear-gantt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="56" column="15" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
         </state>
       </provider>
     </entry>
