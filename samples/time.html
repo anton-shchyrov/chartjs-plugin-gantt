@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Time sample</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="chart-container">
+            <canvas id="chart"></canvas>
+        </div>
+        <script type="text/javascript" src="../dist/chartjs-plugin-gantt.js"></script>
+        <script type="text/javascript">
+            function incHour(date, delta) {
+                if (delta === undefined)
+                    delta = 1;
+                date.setHours(date.getHours() + delta);
+                return new Date(date);
+            }
+
+            const curDate = new Date(2019, 3, 15, 12, 0, 0);
+            const chart = new Chart("chart", {
+                type: "gantt",
+                data: {
+                    datasets: [{
+                        height: 2,  // default 5
+                        /*
+                         format for time scale: "xd yh zm ps qms" or {d: x, h: y, m: z, s: p, ms:1} or number - milliseconds
+                         where:
+                           d: number of days,
+                           h: number of hours,
+                           m: number of minutes,
+                           s: number of seconds,
+                           ms: number of milliseconds.
+                         if the field is missing, then then is considered to be zero
+                         */
+                        width: "2h",
+                        label: "Time gantt",
+                        data: [
+                            {x: incHour(curDate, 0), y: 0},
+                            {x: {from: incHour(curDate), to: incHour(curDate, 3)}, y: 3},
+                        ]
+                    }]
+                },
+                options: {
+                    scales: {
+                        xAxes: [{
+                            type: "time-gantt",
+                            position: "bottom",
+                            time: {
+                                displayFormats: {
+                                    millisecond: "HH:mm:ss",
+                                    second: "HH:mm:ss",
+                                    minute: "HH:mm:ss",
+                                    hour: "HH:mm:ss",
+                                    day: "HH:mm:ss",
+                                },
+
+                            }
+                        }]
+                    }
+
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -58,6 +58,12 @@ export const Utils = {
         return rawValue;
     },
 
+    _incMilliseconds: function(date, addend) {
+        const res = new Date(date);
+        res.setMilliseconds(res.getMilliseconds() + addend);
+        return res;
+    },
+
     extendValue: function (value, defSize) {
         if (this.isRange(value))
             return value;
@@ -65,6 +71,12 @@ export const Utils = {
             return NaN;
 
         const delta = defSize / 2;
+        if (value instanceof Date) {
+            return {
+                from: this._incMilliseconds(value, -delta),
+                to: this._incMilliseconds(value, delta),
+            };
+        }
         return {
             from: value - delta,
             to: value + delta,

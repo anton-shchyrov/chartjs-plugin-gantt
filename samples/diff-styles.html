@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Styles sample</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="chart-container">
+            <canvas id="chart"></canvas>
+        </div>
+        <script type="text/javascript" src="../dist/chartjs-plugin-gantt.js"></script>
+        <script type="text/javascript">
+            const chart = new Chart("chart", {
+                type: "gantt",
+                data: {
+                    datasets: [{
+                        label: "Default colors",
+                        data: [
+                            {x: {from: 0, to: 5}, y: 0},
+                            {x: {from: 6, to: 8}, y: 3},
+                            {x: {from: 8, to: 15}, y: 8},
+                        ]
+                    }, {
+                        // Set params for dataset
+                        borderWidth: 5,  // default 1
+                        borderColor: "rgba(0, 255, 0, 0.5)",  // default options.defaultColor,
+                        backgroundColor: "rgba(255, 0, 0, 0.1)",  // default options.defaultColor,
+                        label: "Override series",
+                        data: [
+                            {x: {from: 15, to: 20}, y: 0},
+                            {x: {from: 15, to: 20}, y: 5},
+                            // Set params for points
+                            {x: {from: 20, to: 25}, y: 1, backgroundColor: "rgba(0, 0, 255, 0.1)"},
+                            {x: {from: 25, to: 30}, y: 2, borderColor: "rgba(255, 255, 0, 0.5)"},
+                            {x: {from: 30, to: 35}, y: 3, borderWidth: 10},
+                        ]
+                    }]
+                },
+                options: {
+                    elements: {
+                        gantt: {
+                            // Set defaults params
+                            borderWidth: 3,  // default 1
+                            borderColor: "rgba(255, 0, 0, 0.1)",  // default options.defaultColor,
+                            backgroundColor: "rgba(0, 255, 0, 0.1)",  // default options.defaultColor,
+                        }
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

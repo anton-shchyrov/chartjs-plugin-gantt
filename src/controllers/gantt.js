@@ -49,9 +49,9 @@ export function GanttController(Chart) {
             }
         },
 
-        _calcBounds: function (scale, scaleValue, index, datasetIndex) {
-            const from = scale.getPixelForValue(scaleValue.from, index, datasetIndex);
-            const to = scale.getPixelForValue(scaleValue.to, index, datasetIndex);
+        _calcBounds: function (scale, scaleValue) {
+            const from = scale.getPixelForValue(scaleValue.from);
+            const to = scale.getPixelForValue(scaleValue.to);
             const res = {
                 from: from,
                 to: to,
@@ -72,9 +72,9 @@ export function GanttController(Chart) {
             const globalOptionGantt = defaults.global.elements.gantt;
 
             dataset._view = {
-                borderWidth: this.borderWidth || globalOptionGantt.borderWidth,
-                borderColor: this.borderColor || globalOptionGantt.borderColor,
-                backgroundColor: this.backgroundColor || globalOptionGantt.backgroundColor,
+                borderWidth: dataset.borderWidth || globalOptionGantt.borderWidth,
+                borderColor: dataset.borderColor || globalOptionGantt.borderColor,
+                backgroundColor: dataset.backgroundColor || globalOptionGantt.backgroundColor,
             };
 
             const data = meta.data || [];
@@ -101,8 +101,8 @@ export function GanttController(Chart) {
 
             point._model = {
                 rect: {
-                    x: this._calcBounds(xScale, fullPoint.x, index, datasetIndex),
-                    y: this._calcBounds(yScale, fullPoint.y, index, datasetIndex),
+                    x: this._calcBounds(xScale, fullPoint.x),
+                    y: this._calcBounds(yScale, fullPoint.y),
                 },
                 borderWidth: value.borderWidth || vm.borderWidth,
                 borderColor: value.borderColor || vm.borderColor,

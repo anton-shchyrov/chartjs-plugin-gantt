@@ -2,7 +2,7 @@
   "name": "chartjs-plugin-gantt",
   "version": "1.0.0",
   "description": "Gantt series fo ChartJS library",
-  "main": "index.js",
+  "main": "./dist/chartjs-plugin-gantt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "webpack -d --mode development",
@@ -29,6 +29,6 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "chart.js": "^2.7.3"
+    "chart.js": "^2.8.0"
   }
 }

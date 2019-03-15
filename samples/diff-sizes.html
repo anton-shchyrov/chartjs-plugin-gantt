@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sizes sample</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="chart-container">
+            <canvas id="chart"></canvas>
+        </div>
+        <script type="text/javascript" src="../dist/chartjs-plugin-gantt.js"></script>
+        <script type="text/javascript">
+            const chart = new Chart("chart", {
+                type: "gantt",
+                data: {
+                    datasets: [{
+                        height: 2,  // default 5
+                        width: 2,  // default 5
+                        label: "Size sample",
+                        data: [
+                            {x: 0, y: 0},  // Rect position ((x - width / 2, y - height / 2), (x + width / 2, y + height / 2))
+                            {x: {from: 1, to: 5}, y: 3},  // Rect position ((x.from, y - height / 2), (x.to, y + height / 2))
+                            {x: 7, y: {from: 4, to: 7}},  // Rect position ((x - width / 2, y.from), (x + width / 2, y.to))
+                            {x: {from: 8, to: 10}, y: {from: 7, to: 12}},  // Rect position ((x.from, y.from), (x.to, y.to))
+                        ]
+                    }]
+                },
+            });
+        </script>
+    </body>
+</html>
