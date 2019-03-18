@@ -10,5 +10,18 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: 'chartjs-plugin-gantt.js'
     },
-    devtool: "source-map",
+    // devtool: "source-map",
+    devtool: false,
+    externals: {
+        "chart.js": "Chart"
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+            }
+        ]
+    }
 }

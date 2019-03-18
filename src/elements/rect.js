@@ -39,7 +39,6 @@ export const Rect = Chart.Element.extend({
         ctx.fillRect(rect.x.from, rect.y.from, rect.x.size, rect.y.size);
         ctx.strokeRect(rect.x.from, rect.y.from, rect.x.size, rect.y.size);
 
-        ctx.stroke();
         ctx.restore();
     }
 });
