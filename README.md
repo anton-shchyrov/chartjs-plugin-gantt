@@ -3,7 +3,7 @@ plugin for draw gantt series in [Chart.js](https://www.chartjs.org/) library
 
 ## Sample chart
 
-![](pic/basic.png)
+![](pic/sample.png)
 
 ## Features
 
