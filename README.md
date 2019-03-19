@@ -21,6 +21,12 @@ plugin for draw gantt series in [Chart.js](https://www.chartjs.org/) library
 + Supports time scale 
 
 ![](pic/time.png)
+
+## Install
+
+```
+npm install chartjs-plugin-gantt --save
+```
  
 ## Usage
 

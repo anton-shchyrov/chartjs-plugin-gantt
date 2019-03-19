@@ -19,7 +19,7 @@ const git = packageFile.homepage.replace(/\#.*/, '');
 
 const hdr = "/*!\n\
  * chartjs-plugin-gantt\n\
- * http://chartjs.org/\n\
+ * " + packageFile.homepage + "\n\
  * Version: " + packageFile.version +"\n\
  *\n\
  * Copyright 2019 Anton Shchyrov\n\
@@ -27,19 +27,32 @@ const hdr = "/*!\n\
  * " + git + "#LICENSE\n\
  */\n\n";
 
-gulp.task("build", buildProd);
+gulp.task("build-prod", buildProd);
+gulp.task("build-dev", buildDev);
 
-function buildProd() {
-    return browserify(config.src)
-        .plugin("esmify")
-        .ignore("chart.js")
+function prepare(debug) {
+    const res = browserify(
+        {
+            entries: config.src,
+            debug: debug
+        })
+        .plugin("esmify");
+    if (!debug)
+        res.external("chart.js");
+    return res
         .bundle()
         .pipe(source(config.outName))
         .pipe(header(hdr))
-        // .pipe(insert.prepend("header"))
-        .pipe(gulp.dest(config.outDir))
+        .pipe(gulp.dest(config.outDir));
+}
+
+function buildProd() {
+return prepare(false)
         .pipe(streamify(uglify()))
         .pipe(streamify(concat(config.outNameMin)))
         .pipe(gulp.dest(config.outDir));
+}
 
+function buildDev() {
+    return prepare(true);
 }

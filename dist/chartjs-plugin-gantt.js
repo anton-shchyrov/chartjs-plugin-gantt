@@ -1,7 +1,7 @@
 /*!
  * chartjs-plugin-gantt
- * http://chartjs.org/
- * Version: 1.0.0
+ * https://github.com/anton-shchyrov/chartjs-plugin-gantt#readme
+ * Version: 0.9.0
  *
  * Copyright 2019 Anton Shchyrov
  * Released under the Apache 2.0 license
@@ -9,8 +9,6 @@
  */
 
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-
-},{}],2:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -126,7 +124,7 @@ function GanttController(Chart) {
   });
 }
 
-},{"../core/utils":3,"../elements/rect":4}],3:[function(require,module,exports){
+},{"../core/utils":2,"../elements/rect":3}],2:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -229,7 +227,8 @@ const Utils = {
 };
 exports.Utils = Utils;
 
-},{}],4:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
+(function (global){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -237,7 +236,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Rect = void 0;
 
-var _chart = require("chart.js");
+var _chart = (typeof window !== "undefined" ? window['Chart'] : typeof global !== "undefined" ? global['Chart'] : null);
 
 var _utils = require("../core/utils");
 
@@ -273,10 +272,12 @@ const Rect = _chart.Chart.Element.extend({
 
 exports.Rect = Rect;
 
-},{"../core/utils":3,"chart.js":1}],5:[function(require,module,exports){
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"../core/utils":2}],4:[function(require,module,exports){
+(function (global){
 "use strict";
 
-var _chart = require("chart.js");
+var _chart = (typeof window !== "undefined" ? window['Chart'] : typeof global !== "undefined" ? global['Chart'] : null);
 
 var _gantt = require("./controllers/gantt");
 
@@ -288,7 +289,8 @@ var _timeGantt = require("./scales/time-gantt");
 (0, _linearGantt.LinearGanttScale)(_chart.Chart);
 (0, _timeGantt.TimeGanttScale)(_chart.Chart);
 
-},{"./controllers/gantt":2,"./scales/linear-gantt":6,"./scales/time-gantt":8,"chart.js":1}],6:[function(require,module,exports){
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./controllers/gantt":1,"./scales/linear-gantt":5,"./scales/time-gantt":7}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -316,7 +318,7 @@ function LinearGanttScale(Chart) {
   _scaleUtils.ScaleUtils.extendScale(Chart, 'linear', 'linear-gantt', scale);
 }
 
-},{"./scale-utils":7}],7:[function(require,module,exports){
+},{"./scale-utils":6}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -379,7 +381,7 @@ const ScaleUtils = {
 };
 exports.ScaleUtils = ScaleUtils;
 
-},{"../core/utils":3}],8:[function(require,module,exports){
+},{"../core/utils":2}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -408,4 +410,4 @@ function TimeGanttScale(Chart) {
   _scaleUtils.ScaleUtils.extendScale(Chart, 'time', 'time-gantt', scale);
 }
 
-},{"./scale-utils":7}]},{},[5]);
+},{"./scale-utils":6}]},{},[4]);

@@ -1,15 +1,19 @@
 {
   "name": "chartjs-plugin-gantt",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Gantt series fo ChartJS library",
   "main": "./dist/chartjs-plugin-gantt.js",
-  "browser": "./src/index.js",
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "chart.js": "global:Chart"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-dev": "webpack -d --mode development",
-    "build": "webpack -d --mode production",
-    "b": "browserify --external chart.js --outfile ./dist/b.js",
-    "g": "gulp build"
+    "build-dev": "gulp build-dev",
+    "build": "gulp build-prod"
   },
   "repository": {
     "type": "git",
@@ -28,22 +32,15 @@
   },
   "homepage": "https://github.com/anton-shchyrov/chartjs-plugin-gantt#readme",
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "babel-loader": "^8.0.5",
     "browserify": "^16.2.3",
+    "browserify-shim": "^3.8.14",
     "esmify": "^2.1.1",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.7",
-    "gulp-insert": "^0.5.0",
-    "gulp-rename": "^1.4.0",
     "gulp-streamify": "^1.0.2",
-    "gulp-uglify": "^3.0.2",
     "gulp-uglify-es": "^1.0.4",
-    "vinyl-source-stream": "^2.0.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "chart.js": "^2.8.0"
