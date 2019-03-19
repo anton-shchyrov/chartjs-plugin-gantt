@@ -9,6 +9,7 @@
         <div class="chart-container">
             <canvas id="chart"></canvas>
         </div>
+        <script type="text/javascript" src="https://unpkg.com/chart.js@2.8.0/dist/Chart.bundle.min.js"></script>
         <script type="text/javascript" src="../dist/chartjs-plugin-gantt.js"></script>
         <script type="text/javascript">
             function incHour(date, delta) {
@@ -25,7 +26,10 @@
                     datasets: [{
                         height: 2,  // default 5
                         /*
-                         format for time scale: "xd yh zm ps qms" or {d: x, h: y, m: z, s: p, ms:1} or number - milliseconds
+                         format for time scale:
+                           string "xd yh zm ps qms",
+                           object {d: x, h: y, m: z, s: p, ms:1} or
+                           number - milliseconds
                          where:
                            d: number of days,
                            h: number of hours,
@@ -59,7 +63,6 @@
                             }
                         }]
                     }
-
                 }
             });
         </script>
