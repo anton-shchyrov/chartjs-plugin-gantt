@@ -11,7 +11,6 @@ plugin for draw gantt series in [Chart.js](https://www.chartjs.org/) library
   + all elements,
   + dataset,
   + some elements of dataset
-  
 + Setting height/width elements
 + Supports time scale 
 

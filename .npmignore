@@ -1,0 +1,8 @@
+.idea/
+src/
+test/
+
+.gitattributes
+
+gulpfile.js
+
